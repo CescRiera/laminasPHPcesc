@@ -5,15 +5,15 @@
 	ini_set('display_errors', 0);
 	if ($_POST['cts'] && $_POST['adm']){
 	   $opcions = [
-            'host' => 'zend-dacomo.fjeclot.net',
-		    'username' => "cn=admin,dc=fjeclot,dc=net",
+            'host' => 'zend-dacomo.clotfje.net',
+		    'username' => "cn=admin,dc=clotfje,dc=net",
    		    'password' => 'fjeclot',
    		    'bindRequiresDn' => true,
-		    'accountDomainName' => 'fjeclot.net',
-   		    'baseDn' => 'dc=fjeclot,dc=net',
+		    'accountDomainName' => 'clotfje.net',
+   		    'baseDn' => 'dc=clotfje,dc=net',
        ];	
 	   $ldap = new Ldap($opcions);
-	   $dn='cn='.$_POST['adm'].',dc=fjeclot,dc=net';
+	   $dn='cn='.$_POST['adm'].',dc=clotfje,dc=net';
 	   $ctsnya=$_POST['cts'];
 	   try{
 	       $ldap->bind($dn,$ctsnya);
@@ -30,6 +30,6 @@
 		</title>
 	</head>
 	<body>
-		<a href="http://zend-dacomo.fjeclot.net/autent/index.php">Torna a la pàgina inicial</a>
+		<a href="http://zend-dacomo.clotfje.net/autent/index.php">Torna a la pàgina inicial</a>
 	</body>
 </html>
