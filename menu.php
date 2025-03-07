@@ -1,6 +1,6 @@
 <?php
     session_start();
-    echo "<h4>Sessió iniciada com usuari".$_SESSION['adm']."<br><br>"
+    echo "<h5>Sessió iniciada com usuari: ".$_SESSION['adm']."</h5><br><br>"
 ?>
 <html>
 	<head>
