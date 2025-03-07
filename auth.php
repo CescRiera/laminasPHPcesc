@@ -17,6 +17,8 @@
 	   $ctsnya=$_POST['cts'];
 	   try{
 	       $ldap->bind($dn,$ctsnya);
+	       session_start();
+	       $_SESSION['adm']=$_POST['adm'];	 
 	       header("location: menu.php");
 	   } catch (Exception $e){
 	       echo "<b>Contrasenya incorrecta</b><br><br>";	       

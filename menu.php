@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    echo "<h4>Sessió iniciada com usuari".$_SESSION['adm']."<br><br>"
+?>
 <html>
 	<head>
 		<title>
@@ -5,8 +9,8 @@
 		</title>
 	</head>
 	<body>
-		<h2> MENÚ PRINCIPAL DE L'APLICACIÓ D'ACCÉS A BASES DE DADES LDAP</h2>
-		<h3> <b>En construcció!!!!!!!!!!!</b> </h3>
-		<a href="http://zend-dacomo.clotfje.net/autent/index.php">Torna a la pàgina inicial</a>
+		<h2> MENÚ PRINCIPAL DE L'APLICACIÓ D'ACCÉS A BASES DE DADES LDAP</h2>		
+		<h3> <b>En construcció!!!!!!!!!!!</b> </h3>		
+		<a href="http://zend-dacomo.clotfje.net/autent/logout.php">Finalitza sessió</a>
 	</body>
 </html>
