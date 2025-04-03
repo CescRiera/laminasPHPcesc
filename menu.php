@@ -11,6 +11,6 @@
 	<body>
 		<h2> MENÚ PRINCIPAL DE L'APLICACIÓ D'ACCÉS A BASES DE DADES LDAP</h2>		
 		<h3> <b>En construcció!!!!!!!!!!!</b> </h3>		
-		<a href="http://zend-dacomo.clotfje.net/autent/logout.php">Finalitza sessió</a>
+		<a href="https://zend-ceriam.clotfje.net/autent/logout.php">Finalitza sessió</a>
 	</body>
 </html>

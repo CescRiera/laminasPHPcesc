@@ -5,7 +5,7 @@
 	ini_set('display_errors', 0);
 	if ($_POST['cts'] && $_POST['adm']){
 	   $opcions = [
-            'host' => 'zend-dacomo.clotfje.net',
+            'host' => 'zend-ceriam.clotfje.net',
 		    'username' => "cn=admin,dc=clotfje,dc=net",
    		    'password' => 'fjeclot',
    		    'bindRequiresDn' => true,
@@ -32,6 +32,6 @@
 		</title>
 	</head>
 	<body>
-		<a href="http://zend-dacomo.clotfje.net/autent/index.php">Torna a la pàgina inicial</a>
+		<a href="https://zend-ceriam.clotfje.net/autent/index.php">Torna a la pàgina inicial</a>
 	</body>
 </html>
